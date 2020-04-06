@@ -37,10 +37,10 @@
 <a href="" id="lin"></a>
 <script type="text/javascript">
 var wilo = document.getElementById("lin").href;
-var Link = wilo.replace("https://","");
-var Link = wilo.replace("http://","");
-var Link1 = Link.replace(window.location.pathname,"");
-var Link = Link1.replace("?link=","");
+var Link1 = wilo.replace("https://","");
+var Link1 = wilo.replace("http://","");
+var Link2 = Link1.replace(window.location.pathname,"");
+var Link = Link2.replace("?link=","");
 document.getElementById("linkGM").innerHTML="<p>الرابط المطلوب "+Link+"</p>";
 </script>
 
