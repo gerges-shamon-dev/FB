@@ -36,8 +36,9 @@
 </div>
 <a href="" id="lin"></a>
 <script type="text/javascript">
+var pathname = window.location.pathname;
 var wilo = document.getElementById("lin").href;
-var Link1 = wilo.replace(window.location.pathname,"");
+var Link1 = wilo.replace(pathname,"");
 var Link2 = Link1.replace("http://","");
 var Link2 = Link1.replace("https://","");
 var Link = Link2.replace("?link=","");
