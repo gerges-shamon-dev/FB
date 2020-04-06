@@ -39,8 +39,8 @@
 var wilo = document.getElementById("lin").href;
 var Link = wilo.replace("https://","");
 var Link = wilo.replace("http://","");
-var Link = Link.replace(window.location.pathname,"");
-var Link = Link.replace("?link=","");
+var Link1 = Link.replace(window.location.pathname,"");
+var Link = Link1.replace("?link=","");
 document.getElementById("linkGM").innerHTML="<p>الرابط المطلوب "+Link+"</p>";
 </script>
 
