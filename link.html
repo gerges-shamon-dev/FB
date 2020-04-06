@@ -33,17 +33,13 @@
 <div class="boxMG">
 <span id="linkGM"></span>
 <a id="btGM"></a>
-</div>
+
 <a href="" id="lin"></a>
 <script type="text/javascript">
-var pathname = window.location.pathname;
 var wilo = document.getElementById("lin").href;
-var Link1 = wilo.replace(pathname,"");
-var Link2 = Link1.replace("http://","");
-var Link2 = Link1.replace("https://","");
-var Link = Link2.replace("?link=","");
+var Link1 =wilo.replace("https://gerges-shamon-dev.github.io/FB/link.html","");
+var Link = Link1.replace("?link=","");
 document.getElementById("linkGM").innerHTML="<p>الرابط المطلوب "+Link+"</p>";
-	document.write(pathname);
 </script>
 
 <script type="text/javascript">
@@ -61,7 +57,7 @@ padding:50px;
 text-align:center;
 }
 </style>
-
+</div>
 
 
 
